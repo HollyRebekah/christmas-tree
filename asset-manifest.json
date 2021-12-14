@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/christmas-tree/static/css/main.5d72cf78.chunk.css",
+    "main.js": "/christmas-tree/static/js/main.89c4b51a.chunk.js",
+    "main.js.map": "/christmas-tree/static/js/main.89c4b51a.chunk.js.map",
+    "runtime-main.js": "/christmas-tree/static/js/runtime-main.b41def7e.js",
+    "runtime-main.js.map": "/christmas-tree/static/js/runtime-main.b41def7e.js.map",
+    "static/js/2.a00ab80c.chunk.js": "/christmas-tree/static/js/2.a00ab80c.chunk.js",
+    "static/js/2.a00ab80c.chunk.js.map": "/christmas-tree/static/js/2.a00ab80c.chunk.js.map",
+    "index.html": "/christmas-tree/index.html",
+    "static/css/main.5d72cf78.chunk.css.map": "/christmas-tree/static/css/main.5d72cf78.chunk.css.map",
+    "static/js/2.a00ab80c.chunk.js.LICENSE.txt": "/christmas-tree/static/js/2.a00ab80c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b41def7e.js",
+    "static/js/2.a00ab80c.chunk.js",
+    "static/css/main.5d72cf78.chunk.css",
+    "static/js/main.89c4b51a.chunk.js"
+  ]
+}

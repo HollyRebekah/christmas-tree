@@ -1,0 +1,189 @@
+.wrapper {
+  background-color: rgb(192, 192, 192);
+  height: 100vh;
+}
+
+.button {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  padding: 10px;
+  border-radius: 6px;
+  border:none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.tree-wrapper {
+  padding-top: 50px;
+  width: 840px;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* Star */
+.star-wrapper {
+  position: absolute;
+  top: 30px;
+  left: 47%;
+}
+
+.star-top {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid gold;
+  margin: 0 auto;
+}
+.star-bottom {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid gold;
+  margin: 0 auto;
+  top: 19px;
+
+}
+
+/* Tree */
+.tree-top {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid darkgreen;
+    margin: 0 auto;
+}
+
+.tree-middle {
+  height: 5px;
+  width: 15%;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid darkgreen;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tree-middle-2 {
+  width: 30%;
+}
+
+.tree-middle-3 {
+  width: 45%;
+}
+
+.tree-stump {
+  width: 75px;
+  height: 100px;
+  background-color: #765c48;
+  margin: 0 auto;
+}
+
+.bucket {
+  width: 15%;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+  margin: 0 auto;
+}
+
+/* Bauble */
+
+.bauble {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+}
+
+.bauble-red {
+  background-color: red;
+}
+
+.bauble-green {
+  background-color: green;
+}
+
+.bauble-blue {
+  background-color: blue;
+}
+
+.bauble-stripe {
+  width: 100%;
+  height: 5px;
+  background-color: gold;
+
+}
+
+.bauble:nth-child(2) {
+  right: 0;
+}
+
+.bauble:nth-child(3) {
+  top: 70px;
+  left: 35%;
+}
+
+.bauble:nth-child(4) {
+  top: 50px;
+  left: 70%;
+}
+
+/* Fairy Lights */
+
+.fairy-lights {
+  display: flex;
+  z-index: 10;
+  left: 43%;
+  position: absolute;
+  top: 144px;
+}
+
+.fairy-lights-middle {
+  top: 100px;
+  left: -42%;
+}
+
+.fairy-lights-middle-2 {
+  top: 100px;
+  left: -20%;
+}
+
+.fairy-lights-middle-3 {
+  top: 100px;
+  left: -12%;
+}
+
+.bulb {
+  width: 7px;
+  height: 14px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 5px;
+
+}
+
+.bulb-animate {
+  animation: lights 2s infinite;
+}
+
+@keyframes lights {
+  100%,0% {background-color: white;}
+  20% {background-color: red;}
+  30% {background-color: orange;}
+  40% {background-color: yellow;}
+  50% {background-color: rgb(56, 228, 56);}
+  60% {background-color: aqua;}
+  80% {background-color: indigo;}
+  90% {background-color: rgb(202, 34, 202);}
+}
